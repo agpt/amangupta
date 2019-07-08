@@ -1,105 +1,20 @@
 <!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2019 by agupta1989 (http://jsbin.com/feculek/20/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-	<link href="https://fonts.googleapis.com/css?family=Lato|Mukta" rel="stylesheet">
-  <title>JS Bin</title>
-<style id="jsbin-css">
-* {
-	box-sizing: border-box;
-}
-
-html {
-  height: 100%;
-}
-body {
-	font-family: 'Lato', sans-serif;
-  margin: 0px;
-  display: flex;
-	height: 100%;
-}
-
-.column {
-	/* display: flex; */
-	flex-direction: column;
-}
-
-.left {
-	background-color: #d08ba8;
-}
-
-.right {
-	background-color: #f2f6ff;
-	width :100%;
-}
-
-/* .side-panel {
-	background-color: #d08ba8;
-	height: 100%;
-  max-width: 25%;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-	display: flex;	
-	flex-direction: column;
-	float: left;
-} */
-
-.profile-container {
-	text-align: center;
-}
-
-.profile-container img {
-	display: block;
-	margin: 20px auto auto auto;
-	max-width: 70%;
-	border-radius: 50%;
-	box-shadow: 0px 3px 2px 0px;
-}
-
-.links {
-	margin-top: 30px;
-}
-
-.links a {
-	display: block;
-	text-align: center;
-  text-decoration: none;
-  font-size: 25px;
-  color: #0e0160;
-	margin-top: 10px;
-}
-
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        html {
+            box-sizing: border-box;
+        }
+        *, *:before, *:after {
+           box-sizing: inherit;
+           margin: 0; padding: 0;
+        }
+    </style>
 </head>
 <body>
-	<div class="column left">
-		<div class="profile-container">
-			<img src="https://via.placeholder.com/250" />
-			<h3>Aman Gupta</h3>
-		</div>
-		<div class="links">
-			<a href="#">Profile</a>
-			<a href="#">Education</a>
-			<a href="#">Competence</a>
-			<a href="#">Projects</a>
-		</div>
-	</div>
-	<div class="column right">
-		
-	</div>
-
-</body>
+    <div id="root"></div>
+<script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="app.bundle.js"></script></body>
 </html>
